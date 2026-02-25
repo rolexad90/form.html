@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Club Registration Form</title>
+</head>
+<body>
+
+    <h1>College Student Club Registration</h1>
+    <hr>
+
+    <form>
+
+        <h2>Personal Information</h2>
+
+        <label>Full Name:</label><br>
+        <input type="text" name="fullname" required><br><br>
+
+        <label>Email Address:</label><br>
+        <input type="email" name="email" required><br><br>
+
+        <label>Phone Number:</label><br>
+        <input type="tel" name="phone"><br><br>
+
+        <label>Student ID:</label><br>
+        <input type="text" name="studentid" required><br><br>
+
+        <label>Department:</label><br>
+        <input type="text" name="department"><br><br>
+
+        <h2>Club Preferences</h2>
+
+        <label>Select Club:</label><br>
+        <select name="club">
+            <option>Programming Club</option>
+            <option>Robotics Club</option>
+            <option>Debate Club</option>
+            <option>Sports Club</option>
+            <option>Science Club</option>
+        </select><br><br>
+
+        <label>Why do you want to join?</label><br>
+        <textarea name="reason" rows="4" cols="40"></textarea><br><br>
+
+        <label>Preferred Role:</label><br>
+        <input type="radio" name="role" value="Member"> Member<br>
+        <input type="radio" name="role" value="Volunteer"> Volunteer<br>
+        <input type="radio" name="role" value="Organizer"> Organizer<br><br>
+
+        <label>
+            <input type="checkbox" required>
+            I agree to follow the club rules and regulations.
+        </label><br><br>
+
+        <input type="submit" value="Submit Application">
+
+    </form>
+
+</body>
+</html>
